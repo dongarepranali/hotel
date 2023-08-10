@@ -50,15 +50,18 @@ body{
     position: relative;
     align-items: center;   
 }
-.main .video-part{
+.main .video-part video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     max-width:100%;
-    height: 100%;
+    height:100%;
+    text-align:center;
     margin-top:-10px;
     margin: 0 auto;
 }
 .main .text{
     position: absolute;
-    text-align: center; 
     width: 40%;
     height:50px;
     margin:0 auto;  
@@ -68,95 +71,110 @@ body{
    color:#fff;
    font-size:45px;
    font-weight:600;
-   position: relative;
-   top:30px;
 }
-/* second section */
-.room-selatio{
-    margin:0 auto;
+/* swiper section  */
+.food-secation{
+    padding-top:30px;
 }
-.room-selation h1 {
-    text-align: center;
-    font-size: 5rem;
+.food-secation .food-info h3 {
+    font-size: 31px;
+    color: #000;
+    font-weight: 900;
+}
+.food-secation .food-info p {
+    font-size: 14px;
     font-weight: 600;
-    color: #555;
-    padding: 10px;
-    margin-top: 30px;
+    text-align: justify;
 }
-.room-selation .box1 h4 {
-    text-align: center;
-    margin-top: 25px;
-    margin-bottom: 15px;
-    font-weight: 600;
-    font-size: 2rem;
-    color: darkgray;
+.food-secation .food-info .select-button {
+        margin-top: 20px !important;
+        padding: 6px !important;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: rgb(38, 209, 221);
+        width: 20%;
+        height: 38px;
+        color: #f1f1f1;
 }
-.room-selation .box1 p {
-    font-size: 1.5rem;
-    letter-spacing: 0.2px;
-    color: #555;
-    font-weight: 600;
+.select-dish{
+    margin:0;
+    padding:0;
 }
-.room-selation .box1 .price {
-    color: rgb(106, 160, 211);
-    font-size: 1 rem;
-    font-weight: 600;
-    font-size: 1.7rem;
+.food-secation .select-dish .swiper{
+    width:90%;
+    height:500px;
 }
-.room-selation .box1 .icon-style{
-    margin:5px;
-    font-size:15px;
+.food-secation .select-dish .swiper-slide{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
 }
-.room-selation .box1 button.book-btn {
-    float: right;
-    position: relative;
-    bottom: 10px;
-    right:20px;
-    font-size: 15px;
-    font-weight: 600;
-    border-radius: 10px;
-    font-size: 1 rem;
-    background-color:rgb(248, 158, 48);
-    color: #f1f1f1;
-}
-.room-selation .box1 button.book-btn:hover{
+.food-secation .select-dish .dish1{
+    border:1px solid #eee;
+    display: inline-block;
+    text-align:center;
     background-color:#fff;
-    color:darkorange;
-    box-shadow: 3px;;
 }
-/* third section */
-
-.special-services{
-max-width:100%;
-height:200px;
-background-color:rgb(226, 159, 77);
-color:#fff;
+.food-secation .select-dish .dish1 img{
+    width:90%;
+    
 }
-.special-services .yellow h1{
-    font-size: 17px;
-    width: 20%;
-    height: 43px;
+.food-secation .select-dish .dish1 img:hover{
+    border-radius: 20px;
+    border:2px solid #dbdbdb;
+}
+.food-secation .select-dish .dish1 h4{
+    font-size:20px;
+    font-weight:600;
+    color:#000;
+    margin-top:10px;
+    
+}
+.food-secation .select-dish p {
+    font-size: 15px;
+    text-align: justify;
+    padding: 18px;
+    color: #000;
     font-weight: 500;
-    border: 1px solid #f1f1f1;
-    margin: 0 auto;
-    position: relative;
-    text-align: center;
-    padding: 13px 24px;
-    top: 25px;
 }
-@media only screen and (max-width:600px) and (min-width:600px){
+.food-secation .select-dish.textarea p{
+    padding-left:30px;
+}
+@media only screen and (max-width:600px){
     .big-wrapper .navigation-line{
         font-size: 1rem;
     }
-    .palugins-seaction .image h3{
-        font-size:1.5rem !important;
-        font-weight:500;
+    .main .video-part{
+        align-items: center;
+        width:100%;
     }
-    .special-services p{
-    width:100%;
+    .main .text{
+        width:90%;
+        margin-top:none;
+        height:auto;
+        margin: 0 auto;
+    }
+    .main .text h1{
+        text-align:center;
+        font-size:25px;
+        font-weight:600;
+        padding-left:30px;
+        position: relative;
+        top:none;
     }
     /* second section */
-    .room-selatio{
-        width:100% !important;
+    .food-secation .food-info{
+        margin:0 auto;
+        text-align:center
+    }
+    .food-secation .food-info .select-button{
+         width:30%;
+         margin-bottom:30px;
+    }
+    .food-secation .select-dish .swiper{
+        width:90%;
+        height:450px;
     }
 }

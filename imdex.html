@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- card slider link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+   
+
     <title>Taj Hotel</title>
 </head>
 <body>
@@ -34,7 +38,7 @@
                     <li><a href="#">Engagement</a></li>
                   </ul>
               </li>
-              <li><a href="#">Dining</a></li>
+              <li><a href="#dining">Dining</a></li>
               <li><a href="#">Services</a></li>
               <li><a href="#room">Rooms</a></li>            
             </ul>
@@ -52,97 +56,134 @@
               <div class="text">
                 <h1>Taj Hotels is a chain of luxury hotels and a subsidiary</h1>
               </div>
-              <video src="image/video.mp4" autoplay loop muted></video>
+              <video src="image/video.mp4" autoplay loop muted class="responsive"></video>
              </div>
         </div>
     <!-- banner part end  -->
-     
-    <!-- second part start -->
-
-        <div class="container">
-            <div class="row room-selation" id="room">
-              <h1>Guest Rooms</h1>              
-                <div class="  col-sm-4 box1">
-                  <img src="image/room1.jpg" alt="" class="img-rounded img-responsive">
-                  <h4>Taj Club Room City View</h4>
-                  <p>These immaculately planned rooms offer an exclusive host of amenities such as access to buffet breakfast at the Sea Lounge</p>
-                  <span class="fa fa-rss icon-style"> Inclusive WiFi</span> <br>
-                  <span class="fa fa-users icon-style">  Up to 3 guests</span><br>
-                  <span class="fa fa-bed icon-style"> king bed</span> <br>
-                  <span class="price">₹ 30,460</span>
-                  <button class="btn btn-default book-btn">BOOK NOW</button>
+      <div class="container food-secation" id="dining">
+          <div class="col-lg-7 food-info">
+            <h3>The similar dished</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores a quibusdam laudantium dignissimos id error ad enim commodi laboriosam natus cumque autem cum harum explicabo ullam, facere magni ab.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo deleniti odit, dolor doloremque ad libero vitae voluptatum iusto sapiente eveniet possimus facilis repellat quos laboriosam amet autem mollitia explicabo in?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quo officiis at nobis eaque ullam vero, optio velit in et voluptatem suscipit rem fugiat delectus voluptates id dicta dolorum ea.</p>
+            <button class="btn btn-default select-button">Select Dish</button>
+          </div>
+          <div class="col-lg-5 select-dish">
+             <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide dish1">
+                   <img src="image/dish1.jpg" alt="">
+                   <h4>Best Dish in your choices.</h4>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, cum nemo ipsam perferendis animi reiciendis mollitia eius totam? Quam nostrum omnis nam alias qui. Veritatis dolorum consectetur sunt iste debitis?</p>
                 </div>
-                <div class=" col-sm-4  box1">
-                  <img src="image/room2.jpg" alt="" class="img-rounded img-responsive">
-                  <h4>Taj Club Room City View</h4>
-                  <p>These immaculately planned rooms offer an exclusive host of amenities such as access to buffet breakfast at the Sea Lounge</p>
-                  <span class="fa fa-rss icon-style"> Inclusive WiFi</span> <br>
-                  <span class="fa fa-users icon-style">  Up to 3 guests</span><br>
-                  <span class="fa fa-bed icon-style"> king bed</span> <br>
-                  <span class="price">₹ 20,620</span>
-                  <button class="btn btn-default book-btn">BOOK NOW</button>
+                <div class="swiper-slide dish1">
+                  <img src="image/dish2.jpg" alt="">
+                  <h4>Best Dish in your choices.</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, cum nemo ipsam perferendis animi reiciendis mollitia eius totam? Quam nostrum omnis nam alias qui. Veritatis dolorum consectetur sunt iste debitis?</p>
                 </div>
-                <div class=" col-sm-4 box1">
-                  <img src="image/room3.jpg" alt="" class="img-rounded img-responsive">
-                  <h4>Taj Club Room City View</h4>
-                  <p>These immaculately planned rooms offer an exclusive host of amenities such as access to buffet breakfast at the Sea Lounge</p>
-                  <span class="fa fa-rss icon-style"> Inclusive WiFi</span> <br>
-                  <span class="fa fa-users icon-style">  Up to 3 guests</span><br>
-                  <span class="fa fa-bed icon-style"> king bed</span> <br>
-                  <span class="price">₹ 26,360</span>
-                  <button class="btn btn-default book-btn">BOOK NOW</button>
-                </div> 
-                <div class=" col-sm-4 box1">
-                  <img src="image/room4.jpg" alt="" class="img-rounded img-responsive">
-                  <h4>Taj Club Room City View</h4>
-                  <p>These immaculately planned rooms offer an exclusive host of amenities such as access to buffet breakfast at the Sea Lounge</p>
-                  <span class="fa fa-rss icon-style"> Inclusive WiFi</span> <br>
-                  <span class="fa fa-users icon-style">  Up to 3 guests</span><br>
-                  <span class="fa fa-bed icon-style"> king bed</span> <br>
-                  <span class="price">₹ 26,360</span>
-                  <button class="btn btn-default book-btn">BOOK NOW</button>
-                </div>      
-                <div class="col-sm-4 box1">
-                  <img src="image/room5.jpg" alt="" class="img-rounded img-responsive">
-                  <h4>Taj Club Room City View</h4>
-                  <p>These immaculately planned rooms offer an exclusive host of amenities such as access to buffet breakfast at the Sea Lounge</p>
-                  <span class="fa fa-rss icon-style"> Inclusive WiFi</span> <br>
-                  <span class="fa fa-users icon-style">  Up to 3 guests</span><br>
-                  <span class="fa fa-bed icon-style"> king bed</span> <br>
-                  <span class="price">₹ 26,360</span>
-                  <button class="btn btn-default book-btn">BOOK NOW</button>
-                </div> 
-                <div class="col-sm-4 box1">
-                  <img src="image/room6.jpg" alt="" class="img-rounded img-responsive">
-                  <h4>Taj Club Room City View</h4>
-                  <p>These immaculately planned rooms offer an exclusive host of amenities such as access to buffet breakfast at the Sea Lounge</p>
-                  <span class="fa fa-rss icon-style"> Inclusive WiFi</span> <br>
-                  <span class="fa fa-users icon-style">  Up to 3 guests</span><br>
-                  <span class="fa fa-bed icon-style"> king bed</span> <br>
-                  <span class="price">₹ 26,360</span>
-                  <button class="btn btn-default book-btn">BOOK NOW</button>
-                </div> 
-            </div>                      
-        </div>
-    <!-- third section  start-->
-                  <div class="container-fluid ">
-                    <div class="row">
-                      <div class="special-services">
-                        <div class="yellow">
-                          <h1>MAKE YOUR RESERVATION</h1>
-                        </div>
-                        <div class= "col-lg-3 about-content">
-                           <h4>About Us</h4>
-                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam adipisci asperiores nulla beatae repudiandae magnam magni dolorum, ipsum, dicta, nam nostrum sunt. Placeat dolore temporibus officia quibusdam veritatis aperiam vitae?</p>
-                        </div>
-                        <div class="col-lg-9">
-                          
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-         
-
+                <div class="swiper-slide dish1">
+                  <img src="image/dish3.jpg" alt="">
+                  <h4>Best Dish in your choices.</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, cum nemo ipsam perferendis animi reiciendis mollitia eius totam? Quam nostrum omnis nam alias qui. Veritatis dolorum consectetur sunt iste debitis?</p>
+                </div>
+                <div class="swiper-slide dish1">
+                  <img src="image/dish4.jpg" alt="">
+                  <h4>Best Dish in your choices.</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, cum nemo ipsam perferendis animi reiciendis mollitia eius totam? Quam nostrum omnis nam alias qui. Veritatis dolorum consectetur sunt iste debitis?</p>
+                </div>
+                <div class="swiper-slide dish1">
+                  <img src="image/dish5.jpg" alt="">
+                  <h4>Best Dish in your choices.</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, cum nemo ipsam perferendis animi reiciendis mollitia eius totam? Quam nostrum omnis nam alias qui. Veritatis dolorum consectetur sunt iste debitis?</p>
+                </div>
+                <div class="swiper-slide dish1">
+                  <img src="image/dish6.jpg" alt="">
+                  <h4>Best Dish in your choices.</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, cum nemo ipsam perferendis animi reiciendis mollitia eius totam? Quam nostrum omnis nam alias qui. Veritatis dolorum consectetur sunt iste debitis?</p>
+                </div>
+                <div class="swiper-slide dish1">
+                  <img src="image/dish7.jpg" alt="">
+                  <h4>Best Dish in your choices.</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, cum nemo ipsam perferendis animi reiciendis mollitia eius totam? Quam nostrum omnis nam alias qui. Veritatis dolorum consectetur sunt iste debitis?</p>
+                </div>
+                <div class="swiper-slide dish1">
+                  <img src="image/dish8.jpg" alt="">
+                  <h4>Best Dish in your choices.</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, cum nemo ipsam perferendis animi reiciendis mollitia eius totam? Quam nostrum omnis nam alias qui. Veritatis dolorum consectetur sunt iste debitis?</p>
+                </div>
+                <div class="swiper-slide dish1">
+                  <img src="image/dish9.jpg" alt="">
+                  <h4>Best Dish in your choices.</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, cum nemo ipsam perferendis animi reiciendis mollitia eius totam? Quam nostrum omnis nam alias qui. Veritatis dolorum consectetur sunt iste debitis?</p>
+                </div>
+              </div>
+             </div>
+          </div>      
+      </div>
+    <!-- swiper js link -->
+    <!-- hotel roomes  -->
+    <div class="container food-secation" id="room">
+      <div class="col-lg-5 select-dish">
+         <div class="swiper mySwiper">
+          <div class="swiper-wrapper textarea">
+            <div class="swiper-slide dish1">
+               <img src="image/room1.jpg" alt="">
+               <h4>SEA-VIEW ROOM</h4>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, cum nemo ipsam perferendis animi reiciendis mollitia eius totam? Quam nostrum omnis nam alias qui. Veritatis dolorum consectetur sunt iste debitis?</p>
+               <button class="btn btn-default"></button>
+            </div>
+            <div class="swiper-slide dish1">
+              <img src="image/room2.jpg" alt="">
+              <h4></h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, cum nemo ipsam perferendis animi reiciendis mollitia eius totam? Quam nostrum omnis nam alias qui. Veritatis dolorum consectetur sunt iste debitis?</p>
+            </div>
+            <div class="swiper-slide dish1">
+              <img src="image/room3.jpg" alt="">
+              <h4></h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, cum nemo ipsam perferendis animi reiciendis mollitia eius totam? Quam nostrum omnis nam alias qui. Veritatis dolorum consectetur sunt iste debitis?</p>
+            </div>
+            <div class="swiper-slide dish1">
+              <img src="image/room4.jpg" alt="">
+              <h4></h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, cum nemo ipsam perferendis animi reiciendis mollitia eius totam? Quam nostrum omnis nam alias qui. Veritatis dolorum consectetur sunt iste debitis?</p>
+            </div>
+            <div class="swiper-slide dish1">
+              <img src="image/room5.jpg" alt="">
+              <h4></h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, cum nemo ipsam perferendis animi reiciendis mollitia eius totam? Quam nostrum omnis nam alias qui. Veritatis dolorum consectetur sunt iste debitis?</p>
+            </div>
+            <div class="swiper-slide dish1">
+              <img src="image/room6.jpg" alt="">
+              <h4></h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, cum nemo ipsam perferendis animi reiciendis mollitia eius totam? Quam nostrum omnis nam alias qui. Veritatis dolorum consectetur sunt iste debitis?</p>
+            </div>
+            <div class="swiper-slide dish1">
+              <img src="image/room7.jpg" alt="">
+              <h4></h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, cum nemo ipsam perferendis animi reiciendis mollitia eius totam? Quam nostrum omnis nam alias qui. Veritatis dolorum consectetur sunt iste debitis?</p>
+            </div>
+            <div class="swiper-slide dish1">
+              <img src="image/room8.jpg" alt="">
+              <h4></h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, cum nemo ipsam perferendis animi reiciendis mollitia eius totam? Quam nostrum omnis nam alias qui. Veritatis dolorum consectetur sunt iste debitis?</p>
+            </div>
+            <div class="swiper-slide dish1">
+              <img src="image/room9.jpg" alt="">
+              <h4></h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, cum nemo ipsam perferendis animi reiciendis mollitia eius totam? Quam nostrum omnis nam alias qui. Veritatis dolorum consectetur sunt iste debitis?</p>
+            </div>
+          </div>
+         </div>
+      </div>   
+      <div class="col-lg-7 food-info">
+        <h3>The similar dished</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolores a quibusdam laudantium dignissimos id error ad enim commodi laboriosam natus cumque autem cum harum explicabo ullam, facere magni ab.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo deleniti odit, dolor doloremque ad libero vitae voluptatum iusto sapiente eveniet possimus facilis repellat quos laboriosam amet autem mollitia explicabo in?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quo officiis at nobis eaque ullam vero, optio velit in et voluptatem suscipit rem fugiat delectus voluptates id dicta dolorum ea.</p>
+        <button class="btn btn-default select-button">Select Dish</button>
+      </div>   
+  </div>
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
       <script src="js/hotel.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
