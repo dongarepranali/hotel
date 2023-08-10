@@ -39,6 +39,9 @@ body{
     border-radius:10px;
     border:1px solid #504949;
 }
+.big-wrapper .navigation-line .booking-btn a{
+    text-decoration: none;
+}
 /* banner section start */
 .main{
     max-width:100%;
