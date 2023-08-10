@@ -71,9 +71,6 @@ body{
    color:#fff;
    font-size:45px;
    font-weight:600;
-   position: relative;
-   left:70%;
-   top:10px;
 }
 /* swiper section  */
 .food-secation{
@@ -175,11 +172,21 @@ body{
 }
 .owl-carousel .item  button{
    position: relative;
-   left:30%;
+   left:35%;
    margin-top:10px;
    margin-bottom:20px;
 }
+/* footer secation */
+.last-section{
+    background-color:#1d1d1d;
+    color: #f1f1f1;
+    text-align:center;
+}
 @media only screen and (max-width:600px){
+    .big-wrapper .navigation-line .logo img{
+        width:50%;
+        height:60px;
+   }
     .big-wrapper .navigation-line{
         font-size: 1rem;
     }
@@ -193,8 +200,10 @@ body{
         height:auto;
         margin: 0 auto;
     }
-    .main .text{
+    .main .text h1{
         position: absolute;
+        font-size:25px;
+        left: none !important;;
         width: 100% !important;
         margin:0 auto;  
     }
@@ -208,7 +217,7 @@ body{
          margin-bottom:30px;
     }
     .food-secation .select-dish .swiper{
-        width:90%;
-        height:450px;
+        width:70% !important;
+        height:450px !important;
     }
 }
