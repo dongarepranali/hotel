@@ -223,10 +223,10 @@ body{
     margin-right:10px;
 }
 @media only screen and (max-width:600px){
-    .big-wrapper .navigation-line .logo img{
+    /* .big-wrapper .navigation-line .logo img{
         width:50%;
         height:60px;
-   }
+   } */
     .big-wrapper .navigation-line{
         font-size: 1rem;
     }

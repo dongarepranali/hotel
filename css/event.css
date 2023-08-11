@@ -49,11 +49,15 @@
     color:#504949;
 }
 /* banner part */
+.big-wrapper .text img{
+    width:100%;
+    height:300 !important;
+}
 .big-wrapper .event-seaction{
     text-align:center;
     background-color:#504949;
     color:#f1f1f1;
-    height:400px;
+    height:480px;
     margin-left:-10px;
 }
 .big-wrapper .event-seaction h1{
@@ -137,6 +141,6 @@
 }
 @media only screen and(max-width:600px){
     .big-wrapper .event-seaction{
-        height:240px !important;
+        height:300px !important;
     }
 }

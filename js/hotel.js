@@ -4,8 +4,8 @@ var swiper = new Swiper(".mySwiper", {
   });
   $('.owl-carousel').owlCarousel({
     loop:true,
-    margin:10,
-    nav:true,
+    margin:30,
+    nav:false,
     responsive:{
         0:{
             items:1
