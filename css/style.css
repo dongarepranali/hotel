@@ -256,7 +256,7 @@ body{
          margin-bottom:30px;
     }
     .food-secation .select-dish .swiper{
-        width:70% !important;
+        width:100% !important;
         height:450px !important;
     }
 }
