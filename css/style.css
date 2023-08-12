@@ -123,8 +123,6 @@ body{
     right: 28px;
     width: 15%;
   }
-  
-  /* The popup form - hidden by default */
   .form-popup {
     display: none;
     position: fixed;
@@ -137,30 +135,23 @@ body{
     font-size:25px;
     font-weight:600;
   }
-  
-  /* Add styles to the form container */
   .form-container {
     max-width: 300px;
     padding: 10px;
     background-color: white;
   }
-  
-  /* Full-width input fields */
-  .form-container input[type=text], .form-container input[type=password] {
+  .form-container input {
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
     border: none;
     background: #f1f1f1;
   }
-  
-  /* When the inputs get focus, do something */
-  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  .form-container input:focus {
     background-color: #ddd;
     outline: none;
   }
   
-  /* Set a style for the submit/login button */
   .form-container .btn {
     background-color: #04AA6D;
     color: white;
@@ -171,17 +162,14 @@ body{
     margin-bottom:10px;
     opacity: 0.8;
   }
-  
-  /* Add a red background color to the cancel button */
   .form-container .cancel {
     background-color: red;
   }
-  
-  /* Add some hover effects to buttons */
   .form-container .btn:hover, .open-button:hover {
     opacity: 1;
   }
 /* swiper section  */
+
 .food-secation{
     padding-top:30px;
 }
@@ -224,7 +212,7 @@ body{
     border:1px solid #eee;
     display: inline-block;
     text-align:center;
-    background-color:#fff;
+    background-color:#fff;  
 }
 .food-secation .select-dish .dish1 img{
     width:90%;    
@@ -329,6 +317,12 @@ body{
         align-items: center;
         width:100%;
     }
+    
+    .food-secation .select-dish .swiper {
+        width:100% !important;
+        margin-left:0px !important;
+        overflow:hidden !important;
+    }
     .main .text{
         width:90%;
         margin-top:none;
@@ -349,7 +343,7 @@ body{
          width:30%;
          margin-bottom:30px;
     }
-    .food-secation .select-dish .swiper{
+    .food-secation .swiper-wrapper{
         width:100% !important;
         height:450px !important;
         clear: both;
