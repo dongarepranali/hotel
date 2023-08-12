@@ -238,6 +238,10 @@ body{
     border: 3px solid #f1f1f1;
     z-index: 9;
   }
+  .form-popup  h3{
+    font-size:25px;
+    font-weight:600;
+  }
   
   /* Add styles to the form container */
   .form-container {
