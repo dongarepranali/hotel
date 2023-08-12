@@ -226,7 +226,7 @@ body{
     position: fixed;
     bottom: 23px;
     right: 28px;
-    width: 280px;
+    width: 20%;
   }
   
   /* The popup form - hidden by default */
@@ -339,7 +339,7 @@ body{
          margin-bottom:30px;
     }
     .food-secation .select-dish .swiper{
-        width:100% !important;
+        width:50% !important;
         height:450px !important;
         clear: both;
     }
@@ -347,6 +347,9 @@ body{
         position: relative;
         left:33%;
     } */
+    .open-button {
+        width: 35%;
+      }
 }
 @media only screen and (max-width:900){
     .big-wrapper .navigation-line .list-style li{
